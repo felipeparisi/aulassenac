@@ -1,6 +1,8 @@
 Parte um criar um Hd de 90 GB 
 habilitar o HD 
 tirar um snapshot
+
+------------------------------------------------------------------------------------------------------
 iniciar acronis 
 1- opção 
 tols & Utilities
@@ -10,3 +12,31 @@ Clone Disk
            Selecionar o disco de destino
               Selecionar a primeira opção 
                Processar
+                 Desligar depois da clonagem
+ Clonagem Concluida
+ trocar a ordem de discos para teste 
+ Processo realizado com sucesso.
+ retornar ao snapshot
+ 
+ ----------------------------------------------------------------------------------------------------------
+iniciar o AOEMI
+abrir o aoemi backupper
+Clone
+   Disk CLone
+      Selecionar o disco que precisa ser clonar 
+       Selecionar o disco de destinon 
+         start clone
+clonagem realizada com sucesso   
+trocar a ordem de discos 
+processo realizado com sucesso 
+Reetornar o snapshot
+-------------------------------------------------------------------------------------------------------
+iniciar o Macrium Reflect
+creat backups
+   Clone the disk
+     escolher disco de origem 
+       escolher disco de destino 
+         finaliza( para iniciar clonagem )
+         
+         clonagem realizada com sucesso
+ 
