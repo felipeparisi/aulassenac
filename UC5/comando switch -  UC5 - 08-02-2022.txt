@@ -1,0 +1,17 @@
+eneble (en)
+    clock set 20:20:20 08 feb 2022
+    configure terminal
+        hostname sw-l2-2960-1
+        service password-encryption
+        service timestamp log datetime msec 
+        no ip domain-lookup
+        banner motd #AVISO: acesso permitido somente a funcionarios.#
+        enable secret 123@senac
+        username admin secret 123@senac
+        line console 0
+            login local
+            password 123@senac
+            logging synchronous
+            exec-timeout 5 30
+            end
+    copy running-config startup-config
